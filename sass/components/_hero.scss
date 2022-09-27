@@ -1,0 +1,50 @@
+.hero {
+  .hero-fon {
+    height: 602px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(../../images/hero.jpg);
+    border-radius: 0px;
+  }
+  .first-title {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $text-color;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 15px;
+  }
+  .second-title {
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $white;
+    margin-bottom: 35px;
+  }
+  .hero-button {
+    display: flex;
+    justify-content: center;
+
+    .button {
+      height: 50px;
+      left: 0%;
+      right: 0%;
+      top: 0px;
+      width: 143px;
+      background: $text-color;
+      border-radius: 0px;
+      font-size: 11px;
+      line-height: 22px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $background;
+      align-items: center;
+      border-color: $text-color;
+    }
+  }
+}

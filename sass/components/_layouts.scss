@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  width: 1200px;
+
+  .first-title {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 120px;
+  }
+
+  .second-title {
+    font-size: 60px;
+    line-height: 70px;
+    line-height: 94%;
+    color: $text-color;
+    margin-bottom: 60px;
+  }
+
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .card {
+    border: 1px solid #4b4136;
+    border-radius: 0px;
+  }
+  .card-img {
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 41px;
+  }
+  .card-title p {
+    padding-bottom: 40px;
+    color: $white;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
