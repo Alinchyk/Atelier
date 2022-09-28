@@ -1,0 +1,58 @@
+.footer {
+  .flag {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 82px;
+    margin-left: 510px;
+    margin-bottom: 35px;
+
+    .top {
+      height: 59px;
+      width: 420px;
+      left: 0%;
+      right: 0%;
+      top: 0px;
+      background: $background;
+      border-radius: 0px;
+      border: solid;
+      border-bottom-style: $text-color;
+    }
+    .down {
+      width: 420px;
+      height: 50px;
+      background: $text-color;
+      border-radius: 0px;
+    }
+  }
+  .footer-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer-text a {
+    color: $text-color;
+  }
+  .icon-list {
+    display: flex;
+    justify-content: center;
+  }
+  .icon {
+    height: 48px;
+    width: 48px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid #4b4136;
+    margin-top: 21px;
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+  .icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+  }
+}
