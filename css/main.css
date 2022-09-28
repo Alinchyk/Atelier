@@ -132,8 +132,8 @@ p {
   left: 0%;
   right: 0%;
   top: 0px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url("../../images/hero.jpg");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../images/hero.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url("/images/hero.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/images/hero.jpg");
   border-radius: 0px;
 }
 .hero .first-title {
