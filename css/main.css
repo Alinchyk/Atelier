@@ -52,6 +52,81 @@ p {
   text-align: center;
 }
 
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 120px;
+}
+.header .site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.header .nav-logo {
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffae2b;
+  padding-top: 25px;
+  padding-bottom: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 42px;
+}
+.header .nav-item:last-child {
+  margin-right: 489px;
+}
+.header .nav-item:first-child {
+  margin-right: 28px;
+}
+.header .nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+.header .nav-link {
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #aca592;
+}
+.header .nav-link:hover {
+  color: #ffae2b;
+}
+.header .button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 115px;
+}
+.header .nav-button {
+  width: 147px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  height: 52px;
+  border: 1px solid #ffae2b;
+  border-radius: 0px;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffae2b;
+  background: #181511;
+}
+
 .hero .hero-fon {
   height: 602px;
   left: 0%;
@@ -89,9 +164,6 @@ p {
 }
 .hero .hero-button .button {
   height: 50px;
-  left: 0%;
-  right: 0%;
-  top: 0px;
   width: 143px;
   background: #ffae2b;
   border-radius: 0px;
