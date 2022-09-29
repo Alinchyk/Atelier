@@ -4,9 +4,9 @@
     left: 0%;
     right: 0%;
     top: 0px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-      url("/./images/hero.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
     border-radius: 0px;
+    position: relative;
   }
   .first-title {
     font-size: 12px;
@@ -15,8 +15,11 @@
     text-transform: uppercase;
     color: $text-color;
     text-align: center;
-    padding-top: 120px;
+    // padding-top: 120px;
     margin-bottom: 15px;
+    position: absolute;
+    left: calc(50% - 289px / 2 + 0.5px);
+    top: calc(50% - 22px / 2 - 140px);
   }
   .second-title {
     font-size: 70px;
@@ -25,10 +28,17 @@
     letter-spacing: 1px;
     color: $white;
     margin-bottom: 35px;
+    position: absolute;
+    left: calc(50% - 869px / 2 + 0.5px);
+    top: calc(50% - 160px / 2 - 34px);
   }
   .hero-button {
+    position: absolute;
     display: flex;
     justify-content: center;
+    left: 44.08%;
+    right: 44%;
+    top: calc(50% - 50px / 2 + 106px);
 
     .button {
       height: 50px;

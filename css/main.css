@@ -132,9 +132,10 @@ p {
   left: 0%;
   right: 0%;
   top: 0px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url("/./images/hero.jpg");
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/./images/hero.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
   border-radius: 0px;
+  position: relative;
 }
 .hero .first-title {
   font-size: 12px;
@@ -143,8 +144,10 @@ p {
   text-transform: uppercase;
   color: #ffae2b;
   text-align: center;
-  padding-top: 120px;
   margin-bottom: 15px;
+  position: absolute;
+  left: calc(50% - 144.5px + 0.5px);
+  top: calc(50% - 11px - 140px);
 }
 .hero .second-title {
   font-size: 70px;
@@ -153,14 +156,21 @@ p {
   letter-spacing: 1px;
   color: #ffffff;
   margin-bottom: 35px;
+  position: absolute;
+  left: calc(50% - 434.5px + 0.5px);
+  top: calc(50% - 80px - 34px);
 }
 .hero .hero-button {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  left: 44.08%;
+  right: 44%;
+  top: calc(50% - 25px + 106px);
 }
 .hero .hero-button .button {
   height: 50px;
